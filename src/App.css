@@ -36,3 +36,62 @@
     transform: rotate(360deg);
   }
 }
+
+.counter{
+  width: 50%;
+  text-align: center;
+  margin: 50px;
+}
+.button-operation{
+  background-color: azure;
+  color: #3a3e46;
+  border-radius: 8%;
+  padding: 4px 15px;
+  font-size: 20px;
+
+}
+.is-disabled{
+  background-color: rgb(177, 182, 182);
+  color: #6d7481;
+  border-radius: 8%;
+  padding: 4px 15px;
+  font-size: 20px;
+}
+.numbox{
+  font-size: 16px;
+  width: 30px;
+  text-align: center;
+}
+#ct{
+  background-color: antiquewhite;
+  width: 100%;
+  text-align: center;
+
+}
+.namecard{
+  background-color: lightcoral;
+  color:white;
+  font-size: 16px;
+  font-style: italic;
+  height: 150px;
+  width: 150px;
+  float: left;
+  text-align: center;
+  border-bottom: 15px;
+  margin-left: 15px;
+  padding-top: 30px;
+  margin-bottom:15px;
+  border-radius: 2%;
+  vertical-align: middle;
+
+
+  
+}
+.namecard:hover{
+  background-color: rgb(209, 110, 110);
+  transform: scale(1.04);
+  box-shadow:5px 5px 5px #9d9ea0  ;
+}
+ul{
+  list-style-type: none;
+}
