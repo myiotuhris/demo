@@ -19,7 +19,7 @@ export default function App() {
   return (
     <Router>
       <div>
-          <Route exact path="/">
+          <Route exact path="/demo">
             <WelcomePage/>
           </Route>
           <Route exact path="/home">
